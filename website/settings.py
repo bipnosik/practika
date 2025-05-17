@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-8)l@_2+54wqy_0j#+55kf9%_v31$t1**popfp$au-yev34$7!#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['Zenfore.pythonanywhere.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
